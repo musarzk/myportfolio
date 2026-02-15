@@ -58,8 +58,8 @@ export default function Header() {
 
           {/* CV Download Button */}
           <a
-            href="/MARZSTACK-CV.pdf"
-            download="MARZSTACK-CV.pdf"
+            href="/MY-CV.pdf"
+            download="MY-CV.pdf"
             className="bg-primary hover:bg-primary/90 text-white px-6 py-2.5 rounded-xl transition-all hover:scale-105 active:scale-95 shadow-lg shadow-primary/20 flex items-center gap-2"
           >
             <svg className="w-4 h-4 text-primary-foreground" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -97,7 +97,7 @@ export default function Header() {
                   }`}
               >
                 {link.name}
-              </a>
+              </a>  
             </li>
           ))}
           <li className="mt-2">
